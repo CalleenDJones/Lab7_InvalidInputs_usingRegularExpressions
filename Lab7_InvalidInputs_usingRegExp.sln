@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7_InvalidInputs_usingRegExp", "Lab7_InvalidInputs_usingRegExp\Lab7_InvalidInputs_usingRegExp.csproj", "{35D0C4AA-8E02-4F19-8756-091507BF1DDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35D0C4AA-8E02-4F19-8756-091507BF1DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D0C4AA-8E02-4F19-8756-091507BF1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D0C4AA-8E02-4F19-8756-091507BF1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D0C4AA-8E02-4F19-8756-091507BF1DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9264BB9-982F-48B6-A6C6-E4E8ECE5A91C}
+	EndGlobalSection
+EndGlobal
