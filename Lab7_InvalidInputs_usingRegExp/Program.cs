@@ -9,19 +9,26 @@ namespace Lab7_InvalidInputs_usingRegularExpressions
 {
     class Program
     {
+        //Main METHOD
         static void Main(string[] args)
 
         {
+            //Request for user to enter first name
             Console.WriteLine("Please enter your first name: ");
+            //Reads input and declares variable
             string ValidName = Console.ReadLine();
+            //Calls for METHOD that was created to validate if name was input correctly
+            //  name should begin with capital letter
             if (IsName(ValidName))
             {
+                //If name was entered beginning with a capital letter
                 Console.WriteLine("\nThank you for inputting your name correctly.");
             }
             else
             {
+                //If name was not entered beginning with a capital letter
                 Console.WriteLine("Sorry, input is not valid.");
-            }
+            }//end of IsName METHOD; same completed for all other methods
 
 
             Console.WriteLine("Please enter your email address: ");
@@ -65,7 +72,7 @@ namespace Lab7_InvalidInputs_usingRegularExpressions
             string ValidHTML = Console.ReadLine();
             if (IsHTML(ValidHTML))
             {
-                Console.WriteLine("Thank you for entering a HTML element.");
+                Console.WriteLine("Thank you for entering a valid HTML element.");
             }
             else
             {
@@ -131,7 +138,5 @@ namespace Lab7_InvalidInputs_usingRegularExpressions
             }
             return false;
         }
-
-
     }
 }
